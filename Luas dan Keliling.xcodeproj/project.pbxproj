@@ -12,6 +12,14 @@
 		6B7B173421776BE500086347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B173221776BE500086347 /* Main.storyboard */; };
 		6B7B173621776BE500086347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B173521776BE500086347 /* Assets.xcassets */; };
 		6B7B173921776BE500086347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7B173721776BE500086347 /* LaunchScreen.storyboard */; };
+		6B8C432D217D99900078383F /* segitigaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C432C217D99900078383F /* segitigaViewController.swift */; };
+		6B8C432F217D99AC0078383F /* lingkaranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C432E217D99AC0078383F /* lingkaranViewController.swift */; };
+		6B8C4331217D99BB0078383F /* belahketupatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C4330217D99BB0078383F /* belahketupatViewController.swift */; };
+		6B8C4333217D99C50078383F /* jajargenjangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C4332217D99C50078383F /* jajargenjangViewController.swift */; };
+		6B8C4335217D99CF0078383F /* persegiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C4334217D99CF0078383F /* persegiViewController.swift */; };
+		6B8C4337217D99E70078383F /* persegipanjangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C4336217D99E70078383F /* persegipanjangViewController.swift */; };
+		6B8C4339217D9A040078383F /* layangLayangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C4338217D9A040078383F /* layangLayangViewController.swift */; };
+		6B8C433B217D9A130078383F /* trapesiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8C433A217D9A130078383F /* trapesiumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		6B7B173521776BE500086347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B7B173821776BE500086347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B7B173A21776BE500086347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8C432C217D99900078383F /* segitigaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segitigaViewController.swift; sourceTree = "<group>"; };
+		6B8C432E217D99AC0078383F /* lingkaranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lingkaranViewController.swift; sourceTree = "<group>"; };
+		6B8C4330217D99BB0078383F /* belahketupatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belahketupatViewController.swift; sourceTree = "<group>"; };
+		6B8C4332217D99C50078383F /* jajargenjangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jajargenjangViewController.swift; sourceTree = "<group>"; };
+		6B8C4334217D99CF0078383F /* persegiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persegiViewController.swift; sourceTree = "<group>"; };
+		6B8C4336217D99E70078383F /* persegipanjangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persegipanjangViewController.swift; sourceTree = "<group>"; };
+		6B8C4338217D9A040078383F /* layangLayangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layangLayangViewController.swift; sourceTree = "<group>"; };
+		6B8C433A217D9A130078383F /* trapesiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trapesiumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,14 @@
 			children = (
 				6B7B172E21776BE500086347 /* AppDelegate.swift */,
 				6B7B173021776BE500086347 /* ViewController.swift */,
+				6B8C4338217D9A040078383F /* layangLayangViewController.swift */,
+				6B8C433A217D9A130078383F /* trapesiumViewController.swift */,
+				6B8C432C217D99900078383F /* segitigaViewController.swift */,
+				6B8C432E217D99AC0078383F /* lingkaranViewController.swift */,
+				6B8C4330217D99BB0078383F /* belahketupatViewController.swift */,
+				6B8C4332217D99C50078383F /* jajargenjangViewController.swift */,
+				6B8C4334217D99CF0078383F /* persegiViewController.swift */,
+				6B8C4336217D99E70078383F /* persegipanjangViewController.swift */,
 				6B7B173221776BE500086347 /* Main.storyboard */,
 				6B7B173521776BE500086347 /* Assets.xcassets */,
 				6B7B173721776BE500086347 /* LaunchScreen.storyboard */,
@@ -91,11 +115,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Yoenas;
 				TargetAttributes = {
 					6B7B172A21776BE500086347 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +162,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7B173121776BE500086347 /* ViewController.swift in Sources */,
+				6B8C432D217D99900078383F /* segitigaViewController.swift in Sources */,
+				6B8C4337217D99E70078383F /* persegipanjangViewController.swift in Sources */,
+				6B8C4339217D9A040078383F /* layangLayangViewController.swift in Sources */,
+				6B8C4335217D99CF0078383F /* persegiViewController.swift in Sources */,
+				6B8C433B217D9A130078383F /* trapesiumViewController.swift in Sources */,
+				6B8C4333217D99C50078383F /* jajargenjangViewController.swift in Sources */,
+				6B8C4331217D99BB0078383F /* belahketupatViewController.swift in Sources */,
+				6B8C432F217D99AC0078383F /* lingkaranViewController.swift in Sources */,
 				6B7B172F21776BE500086347 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +210,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +218,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +269,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +277,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -280,7 +317,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yoenas.Luas-dan-Keliling";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,7 +332,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yoenas.Luas-dan-Keliling";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
